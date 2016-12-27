@@ -1,0 +1,32 @@
+$color-sucess: #4CAF50
+$color-error: #f44336
+$color-warning: #ff9800
+$color-notice: #2196F3
+$font: sans-serif
+
+#notification
+    display: none
+    position: fixed
+    min-width: 5%
+    max-width: 15%
+    text-align: justify
+    left: 80%
+    top: 75%
+    z-index: 0
+    font-size: 1rem
+    color: white
+    padding: 15px
+    opacity: 0.75
+    font-family: $font
+
+#notification.success
+    background-color: $color-sucess
+
+#notification.error
+    background-color: $color-error
+
+#notification.warning
+    background-color: $color-warning
+
+#notification.notice
+    background-color: $color-notice
