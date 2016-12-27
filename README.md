@@ -1,5 +1,7 @@
 # Puffly
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bbf2d676a27842eab590d8dac0cda3ca)](https://www.codacy.com/app/Kevyder/puffly?utm_source=github.com&utm_medium=referral&utm_content=kevyder/puffly&utm_campaign=badger)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/puffly`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
