@@ -36,7 +36,30 @@ and your `application.js`:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this lines to your `application.erb` or the main layout of your application:
+
+  ```erb
+  <% flash.each do |type, msg| %>
+    <%= content_tag :span, msg, class: "#{type}", id: "puffly" %>
+  <% end %>
+  ```
+
+And add the flash message to the action of your controller:
+
+   ```ruby
+   flash[OPTION] = "Your message"
+   ```
+
+You can set some options when creating a flash message.
+
+####`flash[OPTION]`
+
+   OPTION | SASS Variable | HEX Color
+   ------------ | ------------- | -------------
+   :success | $color-sucess | `#3DC763`
+   :error | $color-error | `#ED3D3D`
+   :warning | $color-warning | `#FF9800`
+   :notice | $color-notice | `#2B5C7F`
 
 ## Contributing
 

@@ -1,4 +1,4 @@
 $(document).ready ->
-  $('#notification').fadeIn 2000
-  $('#notification').delay(10000).fadeOut 2000
+  $('#puffly').fadeIn 1000
+  $('#puffly').delay(4000).fadeOut 1000
   return
