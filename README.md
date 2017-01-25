@@ -5,6 +5,8 @@
 
 Fun and cute flash messages for your Ruby on Rails application.
 
+#### Live demo: https://goo.gl/K4XQQU
+
 ## Installation
 
 Add this line to your application's Gemfile:
