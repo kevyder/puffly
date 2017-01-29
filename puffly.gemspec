@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
 
   # run time dependencies
   spec.add_runtime_dependency 'rails', '~> 4.1', '>= 4.1.6'
-  spec.add_runtime_dependency 'sass', '~> 3.4', '>= 3.4.23'
+  spec.add_runtime_dependency 'sass-rails', '~> 4.0', '>= 4.0.3'
   spec.add_runtime_dependency 'jquery-rails', '~> 4.2', '>= 4.2.2'
   spec.add_runtime_dependency 'coffee-rails', '~> 4.2', '>= 4.2.1'
 end
