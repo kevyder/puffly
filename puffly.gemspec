@@ -33,7 +33,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
 
   # run time dependencies
-  spec.add_runtime_dependency 'rails', '~> 5.0', '>= 5.0.1'
+  spec.add_runtime_dependency 'rails', '~> 4.1', '>= 4.1.6'
   spec.add_runtime_dependency 'sass', '~> 3.4', '>= 3.4.23'
   spec.add_runtime_dependency 'jquery-rails', '~> 4.2', '>= 4.2.2'
+  spec.add_runtime_dependency 'coffee-rails', '~> 4.2', '>= 4.2.1'
 end
