@@ -1,6 +1,9 @@
 # Puffly
+
 [![Gem Version](https://badge.fury.io/rb/puffly.svg)](https://badge.fury.io/rb/puffly)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/bbf2d676a27842eab590d8dac0cda3ca)](https://www.codacy.com/app/Kevyder/puffly?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kevyder/puffly&amp;utm_campaign=Badge_Grade)
+
+
 Fun and cute flash messages for your Ruby on Rails application.
 
 #### Live demo: https://goo.gl/K4XQQU
