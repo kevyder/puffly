@@ -62,6 +62,7 @@ You can set some options when creating a flash message.
    :error | $color-error | `#ED3D3D`
    :warning | $color-warning | `#FF9800`
    :notice | $color-notice | `#2B5C7F`
+   :alert  | $color-alert  | `#03A9F4`
 
 ## Contributing
 
