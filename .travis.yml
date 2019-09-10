@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.3.0
+  - 2.6.0
+before_install:
+  - gem i rubygems-update -v '3.0.4' && update_rubygems
+  - gem i bundler -v '2.0.2'
+bundler_args: --without benchmark --jobs=3 --retry=3
+gemfile:
+  - Gemfile
+fast_finish: true
