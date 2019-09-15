@@ -1,11 +1,13 @@
-// Variables
-$color-sucess: #3dc763
-$color-error: #ed3d3d
-$color-warning: #ff9800
+// Color Variables
+$color-sucess: #3DC763
+$color-error: #ED3D3D
+$color-warning: #FF9800
 $color-notice: #2B5C7F
 $color-alert: #03A9F4
-$white: #fff
-$font: Helvetica, sans-serif
+$color-white: #FFFFFF
+
+// Fonts Variables
+$font-family: Helvetica, sans-serif
 
 #puffly
     display: none
@@ -17,22 +19,17 @@ $font: Helvetica, sans-serif
     bottom: 5%
     z-index: 999
     font-size: 1rem
-    color: $white
+    color: $color-white
     padding: 15px 20px
     opacity: 0.7
-    font-family: $font
-
-#puffly.success
-    background-color: $color-sucess
-
-#puffly.error
-    background-color: $color-error
-
-#puffly.warning
-    background-color: $color-warning
-
-#puffly.notice
-    background-color: $color-notice
-
-#puffly.alert
-    background-color: $color-alert
+    font-family: $font-family
+    &.success
+        background-color: $color-sucess
+    &.error
+        background-color: $color-error
+    &.warning
+        background-color: $color-warning
+    &.notice
+        background-color: $color-notice
+    &.alert
+        background-color: $color-alert
