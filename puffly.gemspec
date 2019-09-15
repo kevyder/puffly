@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
 
   # development dependencies
   spec.add_development_dependency 'bundler', '~> 1.13'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rails', '~> 4.0'
   spec.add_development_dependency 'jquery-rails', '~> 3.1'
   spec.add_development_dependency 'coffee-rails', '~> 4.2'
