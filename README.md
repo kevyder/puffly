@@ -34,7 +34,6 @@ Once installed, add the following to your `application.scss`:
 and your `application.js`:
 
   ```js
-  //= require jquery
   //= require puffly
   ```
 
