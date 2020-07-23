@@ -55,8 +55,6 @@ And add the flash message to the action of your controller:
 
 You can set some options when creating a flash message.
 
-####`flash[OPTION]`
-
    OPTION | SASS Variable | HEX Color
    ------------ | ------------- | -------------
    :success | $color-sucess | `#3DC763`
