@@ -1,6 +1,7 @@
 # Puffly
 
 [![Gem Version](https://badge.fury.io/rb/puffly.svg)](https://badge.fury.io/rb/puffly)
+[![Gem](https://img.shields.io/gem/dt/puffly)](https://rubygems.org/gems/puffly)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/bbf2d676a27842eab590d8dac0cda3ca)](https://www.codacy.com/app/Kevyder/puffly?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kevyder/puffly&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/kevyder/puffly.svg?branch=master)](https://travis-ci.org/kevyder/puffly)
 
